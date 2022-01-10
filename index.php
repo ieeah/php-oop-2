@@ -8,6 +8,11 @@
 	<title>Caprette Tibetane PHP Shop</title>
 </head>
 <body>
+	<?php
+		include __DIR__ . './classes/classes.php';
+		include __DIR__ . './data/data.php';
+	?>
+
 	<header>
 		<button>login</button>
 		<div class="user_name">Guest</div>
